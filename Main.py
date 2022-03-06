@@ -17,4 +17,7 @@ RequestPost = requests.post(URL, data=RequestData)
 soup = BeautifulSoup(RequestPost.text, 'html.parser')
 HTML_Tags = soup.find_all(class_="paypal1")
 Result = HTML_Tags[1].string[:-3].strip()
-print(Result + "€")
+# Rückgabe für die Shell
+#print(Result + "€")
+# Rückgabe für Alfred App
+print('<?xml version = "1.0"?><items><item uid = "1" arg = "1"><title>' + Result + '€</title><subtitle>Müssen vom Käufer gezahlt werden.</subtitle><icon>icon.png</icon></item></items>')
