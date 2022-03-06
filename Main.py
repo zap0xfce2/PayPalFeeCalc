@@ -20,4 +20,4 @@ Result = HTML_Tags[1].string[:-3].strip()
 # Rückgabe für die Shell
 #print(Result + "€")
 # Rückgabe für Alfred App
-print('<?xml version = "1.0"?><items><item uid = "1" arg = "1"><title>' + Result + '€</title><subtitle>Müssen vom Käufer gezahlt werden.</subtitle><icon>icon.png</icon></item></items>')
+print('<?xml version = "1.0"?><items><item uid = "1" arg = "' + Result + '€"><title>' + Result + '€</title><subtitle>Müssen vom Käufer gezahlt werden.</subtitle><icon>icon.png</icon></item></items>')
