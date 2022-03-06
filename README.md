@@ -1,6 +1,6 @@
 # PayPalFeeCalc
 
-Ein kleiner Workflow für die Alfred App zum ermitteln des Kaufbetrags bei PayPal
+Ein kleiner Workflow für die Alfred App zum ermitteln des Käuferbetrags bei PayPal
 
 ## Benutzung via Alfred
 
